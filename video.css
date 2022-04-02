@@ -1,0 +1,79 @@
+.video
+	position: relative
+	padding-top: 4.1%
+	padding-bottom: 51.95%
+	height: 0
+	iframe
+		position: absolute
+		top: 0
+		left: 0
+		height: 100%
+		width: 100%
+		min-height: 0
+
+.video-gallery
+	margin-top: 3em
+	position: relative
+	width: 100%
+	.video
+		animation: 1200ms fadeOut ease
+		animation-fill-mode: both
+		//display: none
+		grid-column-start: 1
+		grid-row-start: 1
+		grid-row-end: 7
+		//height: 0
+		max-height: 19.5em
+		opacity: 0
+		transition: all 300ms ease
+	input[type="radio"]
+		font-size: 0
+		height: 0
+		opacity: 0
+		padding: 0
+		position: fixed
+		width: 0
+	input
+		grid-column-start: 1
+		grid-row-start: 1
+	label
+		color: #000000
+		font-size: 1.25em
+		font-weight: 400 
+		grid-column-start: 2
+		margin: 0 !important
+		padding: 1rem 0 1rem 3rem
+		position: relative
+		border-bottom: 1px solid #CCCCCC
+		&:last-of-type
+			border: 0 none
+	input[type="radio"]:checked+label
+		color: #E41F35 !important
+		&:before
+			content: "▶"
+			left: 0
+			top: 12px
+			position: absolute
+
+
+
+
+
+.grid-row
+	display: block
+	height: 56vw
+	max-height: 19.5em
+	position: relative
+	label
+		left: calc(50% + 16px)
+		position: relative
+		width: calc(50% - 16px)
+	.video
+		padding: 0
+		position: absolute
+		top: 0
+		width: 0
+	&:after
+		content: ""
+		clear: both
+		display: table
