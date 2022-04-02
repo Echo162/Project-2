@@ -1,3 +1,39 @@
+body {background-color:white; font-family: Arial, sans-serif;}
+
+header {background-color:yellow;}
+
+h2 {color:blue;
+    padding: 60px;
+    text-align: center;
+    background: SkyBlue;
+    color: white;
+    font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
 .video
 	position: relative
 	padding-top: 4.1%
