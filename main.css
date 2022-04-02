@@ -20,6 +20,14 @@
   grid-column: 1 / 2;
   grid-row: 2 / 4;
 }
+.video {
+  grid-column: 1 / 4;
+  grid-row: 2 / 4;
+}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 body {background-color:white; font-family: Arial, sans-serif;}
 
 header {background-color:yellow;}
