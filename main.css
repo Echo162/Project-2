@@ -4,30 +4,52 @@
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
+.zero{
+  padding: 60px;
+  text-align: left;
+  color: white;
+  font-size: 30px;
+  background-image: https://www.shutterstock.com/image-photo/school-chalk-board-painted-different-formulas-1801612474;
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
 .one {
   grid-column: 1 / 4;
-  grid-row: 1;
+  grid-row: 3;
 }
 .two {
   grid-column: 2 / 4;
-  grid-row: 2;
+  grid-row: 4;
 }
 .three {
   grid-column: 2 / 4;
-  grid-row: 3 / 4;
+  grid-row: 4 / 5;
 }
 .four {
   grid-column: 1 / 2;
-  grid-row: 2 / 4;
+  grid-row: 3 / 5;
 }
-.video {
-  grid-column: 1 / 4;
-  grid-row: 2 / 4;
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
 }
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
 div.desc {
   padding: 15px;
   text-align: center;
 }
+
 body {background-color:white; font-family: Arial, sans-serif;}
 
 header {background-color:yellow;}
