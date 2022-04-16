@@ -13,8 +13,9 @@ img{
   text-align: left;
   color: white;
   font-size: 30px;
+  width:400px;
+  height:200px;
   background-image: url("https://image.shutterstock.com/z/stock-photo-school-chalk-board-is-painted-with-different-formulas-and-signs-from-the-school-curriculum-a-green-1801612474.jpg");
-  background-color: #cccccc
   grid-row: 1 ;
   background-size: cover
 }
