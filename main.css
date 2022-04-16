@@ -10,7 +10,6 @@ img{
   obj-fit: cover;
 }
 .zero{
-  padding: 60px;
   text-align: left;
   color: white;
   font-size: 30px;
@@ -28,7 +27,7 @@ img{
   grid-row: 2;
 }
 .three {
-  grid-column: 2 / 4;
+  grid-column: 3 / 4;
   grid-row: 4 / 6;
 }
 .four {
